@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+body{
+    background-image: url(../airbnb/images/about1.1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+*::selection{
+    background-color: rgb(81, 112, 122);
+    color:var(--white);
+ }
+ 
+ *::-webkit-scrollbar{
+    height: .5rem;
+    width: 1rem;
+ }
+
+ *::-webkit-scrollbar-track{
+    background-color: transparent;
+ }
+ 
+ *::-webkit-scrollbar-thumb{
+    background-color: rgb(3, 26, 34);
+ }
+ 
+.message{
+    position: sticky;
+    top:0;
+    margin:0 auto;
+    max-width: 1200px;
+    background-color: rgba(255, 255, 255, 0.719);
+    padding:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10000;
+    gap:1.5rem;
+}
+ 
+.message span{
+    font-size: 2rem;
+    color:var(--black);
+}
+ 
+.message i{
+    cursor: pointer;
+    color:var(--red);
+    font-size: 2.5rem;
+}
+ 
+.message i:hover{
+    transform: rotate(90deg);
+}
+
+.form-container{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 90vh;
+    justify-content: center;
+    align-content: center;
+    font-family:'Poppins' , sans-serif;
+    align-items: center;
+}
+
+.main{
+    width: 330px;
+    height: 450px;
+    border: 1px solid #0000;
+    padding: 50px;
+    background: rgb(255, 255, 255,0.25);
+    box-shadow: 0 8px 32px 0 rgb(3, 38, 135,0.37);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255,0.18);
+    margin-top: 30px;
+    margin-bottom: 30px; 
+}
+
+.header1{
+    text-align: center;   
+}
+
+.header1 h2{
+    color:#030424;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.header1 h3{
+    color:#030424;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header1 p{
+    font-size: 22px;
+}
+
+input{
+    height: 30px;
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #000;
+    font-size: 16px;
+}
+
+input:focus{
+    outline: none;
+}
+
+input::placeholder{
+    color: #000;
+    font-size: 16px;
+}
+.option2{
+    margin-top: 2rem;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p.option2 a{
+    color:black;
+}
+
+p.option2 a:hover{
+    color:#030424;
+}
+
+input.btn{
+    height:40px;
+    width: 200px;
+    margin-top: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #030424;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    transition: all .5s ease-in-out;
+}
+
+select{
+margin-top: 25px;
+background-color: transparent;
+font-size: 22px;
+border: none;
+}
+
+
